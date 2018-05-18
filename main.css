@@ -1,0 +1,38 @@
+nav,
+footer .list-inline,
+table th {
+  background: #e9c58f;
+  border-top: 0!important;
+  border-bottom: 0!important;
+}
+
+
+/* Navbar */
+.nav-btns button {
+  background: #fd7d13;
+  color: #fff;
+  border-radius: 30px;
+  margin: 0 3px;
+  font-size: 13px;
+  transition: all .3s ease;
+  outline: none;
+  padding: 10px 15px;
+}
+.nav-btns button:hover {
+  background: #ef7006;
+}
+
+/* Table */
+.table-bordered thead td,
+.table-bordered thead th {
+  font-size: 15px;
+  text-align: center;
+  padding: 2em 0;
+}
+
+/* Footer */
+footer .list-inline-item a {
+  margin: 0 5px;
+  font-size: 15px;
+  color: #fff!important;
+}
